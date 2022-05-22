@@ -3,13 +3,9 @@ Use Altair to analyze datasets.
 
 ## Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+This project analyzes my goodreads data, Friends dialogue, and Friends episode ratings. My goodreads data is a csv file of the books I have saved to various shelves. I obtained this data from [goodreads.com](https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks) by exporting my data as a csv file. To get the Friends data, I used Kaggle. I used the datasets [Friends Script Data](https://www.kaggle.com/discussions/general/182990) and [Friends Episode Data](https://www.kaggle.com/datasets/bcruise/friends-episode-data).
 
-{Provide a description of the data set that you are analyzing.  Include the link of where you obtained the data.}
-
-{Describe your purpose for writing this software to analyze the data.}
-
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the data set, the questions and answers, the code running and a walkthrough of the code.}
+The purpose for analyzing these datasets was to gain more experince with using Pandas and Altair. I used my goodreads data was to identify my favoite authors and my reading trends. I used Friends dataset to find the amount of times a characters catchphrase was used, the amount of episodes a writer wrote, and identifying the most popular episodes.  
 
 [Software Demo Video](http://youtube.link.goes.here)
 
@@ -44,6 +40,10 @@ Use Altair to analyze datasets.
 The most popular episode according to the frinds imdb dataset is 'The Last One.' The following chart of the top 10 episodes shows this.
 
 ![](charts/top10.png)
+
+#### How many episodes did each writer write?
+
+![](charts/writercount.png)
 
 ## Development Environment
 
