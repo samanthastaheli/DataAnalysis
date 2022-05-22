@@ -43,7 +43,7 @@ The most popular episode according to the frinds imdb dataset is 'The Last One.'
 
 #### How many episodes did each writer write?
 
-![](charts/writercount.png)
+<img src="charts/writercount.png" alt="drawing" width="200"/>
 
 ## Development Environment
 
