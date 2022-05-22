@@ -7,7 +7,7 @@ This project analyzes my goodreads data, Friends dialogue, and Friends episode r
 
 The purpose for analyzing these datasets was to gain more experince with using Pandas and Altair. I used my goodreads data was to identify my favoite authors and my reading trends. I used Friends dataset to find the amount of times a characters catchphrase was used, the amount of episodes a writer wrote, and identifying the most popular episodes.  
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/dGu4LQzZx80)
 
 ## Data Analysis Results
 
