@@ -15,23 +15,69 @@ Use Altair to analyze datasets.
 
 ## Data Analysis Results
 
-{List the questions and the answers you found by doing this analysis.}
+### Analysis of Books Dataset
+
+### Which authors books have I read the most?
+
+![](charts/AuthorAmountReadChart.png)
+
+#### What are my top authors?
+
+**My Top 3 Authors**
+|    Author     |   books read   |
+|:--------------|---------------:|
+| Marissa Meyer |             12 |
+| Kiera Cass    |              8 |
+| Sarah J. Maas |              7 |
+
+### What is my average rating of authors?
+![](charts/avgRatingAuthor.png)
+
+### Analysis of Friends Dataset
+
+#### How many times does the friends characters catchphrase appear in the dataset?
+
+![](charts/freindsChart.png)
+
+#### What is the most popular Friends episode?
+
+The most popular episode according to the frinds imdb dataset is 'The Last One.' The following chart of the top 10 episodes shows this.
+
+![](charts/top10.png)
 
 ## Development Environment
 
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
+Using python packages pandas and altair I was able to analyze the datasets. The IDE used was VS Code.  
 
 ## Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Different ways to create Pandas Dataframe](https://www.geeksforgeeks.org/different-ways-to-create-pandas-dataframe/)
+* [Pandas Aggregate Documentation](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.aggregate.html)
+* [Friends Quotes](https://www.washingtonpost.com/arts-entertainment/2019/09/22/friends-premiered-years-ago-here-are-beloved-sitcoms-most-memorable-quotes/)
+
+## Datasets Used
+
+#### Kaggle Datasets
+
+* [Goodreads Books](https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks)
+* [Bestsellers books (Amazon, eBay, and Barnes&Noble)](https://www.kaggle.com/code/digenessilva/bestsellers-books-amazon-ebay-and-barnes-noble)
+* [US Baby Names](https://www.kaggle.com/datasets/kaggle/us-baby-names)
+* [Friends Script Data](https://www.kaggle.com/discussions/general/182990)
+* [Friends Episode Data](https://www.kaggle.com/datasets/bcruise/friends-episode-data)
+
+#### Other Datasets
+
+* [My Goodreads](https://www.goodreads.com/review/list/84060474?ref=nav_mybooks)
+* [Statista best selling books 2020](https://www-statista-com.byui.idm.oclc.org/statistics/324872/best-selling-mass-market-paperback-books-usa/)
+* [Statista best selling books 2022](https://www-statista-com.byui.idm.oclc.org/statistics/324872/best-selling-mass-market-paperback-books-usa/)
+
 
 ## Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Use the name dataset to make charts of different names.
+* Find what the most popular names are. 
+* Have a dataset that contains all seasons of the Friends dialoge.
+* Analyze how popular/books sold before and after Tic Tok.   
+* Analyze book sales before and after thei movie released.
+* Analyze book sales in relation to when certain resources became available, such as Amazon, Kindle/eBooks, Goodreads, and Tic Tok (Book Tok). 
+* Incorporate names database with books. See if names became popular when they were in a book.
